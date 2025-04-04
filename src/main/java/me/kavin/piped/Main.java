@@ -69,14 +69,14 @@ public class Main {
                 System.err.println("Failed to get country from YouTube!");
             }
         });
-
+        /*
         Sentry.init(options -> {
             options.setDsn(Constants.SENTRY_DSN);
             options.setRelease(Constants.VERSION);
             options.addIgnoredExceptionForType(ErrorResponse.class);
             options.setTracesSampleRate(0.1);
         });
-
+       */
         Injector.useSpecializer();
 
         try {
